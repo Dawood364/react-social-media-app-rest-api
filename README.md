@@ -37,7 +37,7 @@ A **React Social Media Application** with **REST API integration**, global state
 
 ### ✅ Home Page
 
-![Home Page](public/Home.png)
+![Home Page](public/Home.PNG)
 
 ### ✅ Create Post Page
 
