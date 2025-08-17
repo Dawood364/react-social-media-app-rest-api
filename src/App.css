@@ -1,0 +1,86 @@
+.containar{
+  display: flex;
+
+}
+.cotent{
+  width: 100%;
+}
+.target{
+  min-height: 800px;
+}
+.post-card{
+  margin: 30px;
+  
+  width: 900px;
+}
+
+.hastag{
+  margin-right: 10px;
+}
+.alert{
+  margin-top: 10px;
+}
+.Form{
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 70px;
+}
+.like{
+  margin-right:30px;
+/* background-color: blue; */
+  
+}
+.Thumbdown{
+  margin-top:6px;
+}
+.welcomemsg{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.btn{
+  margin-top: 40px;
+  
+}
+.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid #0000;
+  border-right-color: #ffa50097;
+  position: relative;
+  animation: l24 1s infinite linear;
+}
+
+.loader:before,
+.loader:after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: inherit;
+  animation: inherit;
+  animation-duration: 2s;
+}
+
+.loader:after {
+  animation-duration: 4s;
+}
+
+@keyframes l24 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+
+
+.search{
+  margin-top: 40px;
+} 
